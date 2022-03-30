@@ -1,3 +1,16 @@
+# PiFU on Video Frames.
+
+Forked from [Project Page](https://github.com/shunsukesaito/PIFu)
+
+Processes data from a video file to provide as input to the PiFU model.
+
+To generate frames (background separated) and the corresponding mask from a video file input, run:
+```
+python apps/video_process.py --input_path {path_to_video_data} --input_filename {video_filename} --output_path {path_to_output_folder}
+```
+
+# Instructions from the original Repository:
+
 # PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization
 
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)
